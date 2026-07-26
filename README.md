@@ -93,7 +93,7 @@ git clone https://github.com/malusarekrishnab-cyber/kanix-ai-api-base.git
 Go into the project
 
 ```bash
-cd kanix-ai-api-base
+cd Mark-XXXIX-OR
 ```
 
 Create Virtual Environment
