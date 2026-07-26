@@ -1,82 +1,252 @@
-# 🤖 MARK XXXIX-OR (39)
-### The Ultimate Cross-Platform Personal AI Assistant — By FatihMakes
+# 🤖 KANIX AI API BASE
 
-> 📺 **[Watch the full setup video on YouTube](https://youtu.be/ldvDNzwnM8k)**
+### The Next-Generation Cross-Platform Personal AI Assistant API
 
-A real-time voice AI that can hear, see, understand, and control your computer — on any OS. Supporting Windows, macOS, and Linux. Local execution. Zero subscriptions. Engineered for total autonomy.
+**Designed & Developed by krushna bhagwat malusare**
 
----
-
-## ✨ Overview
-
-MARK XXXIX-OR represents the pinnacle of the Jarvis series, evolving into a more flexible and robust system. It bridges the gap between the operating system and human intent. Through natural dialogue, Mark 39 analyzes your screen, processes uploaded documents, and executes complex workflows with a brand-new, adaptive interface.
-
-It's not just an assistant — it's an extension of your digital life.
+> 🌐 **GitHub Repository:**
+> https://github.com/malusarekrishnab-cyber/kanix-ai-api-base
 
 ---
 
-## 🚀 Capabilities
+# 🚀 Overview
 
-### Core Features
-| Feature | Description |
-|---|---|
-| 🎙️ Real-time Voice | Ultra-low latency conversation in any language |
-| 🖥️ System Control | Launch apps, manage files, execute terminal commands |
-| 🧩 Autonomous Tasks | High-level planning for complex, multi-step goals |
-| 👁️ Visual Awareness | Real-time screen processing and webcam vision |
-| 🧠 Persistent Memory | Deeply remembers your projects, preferences, and personal context |
-| ⌨️ Hybrid Input | Seamlessly switch between keyboard typing and voice commands |
+**KANIX AI API BASE** is a powerful AI assistant backend inspired by next-generation autonomous assistants. It is designed to provide intelligent automation, voice interaction, system control, memory management, computer vision, and advanced AI agent capabilities through a scalable API architecture.
+
+KANIX is built with the vision of creating an Iron Man–style AI assistant that can understand user intent, automate workflows, interact naturally, and integrate with multiple Large Language Models (LLMs).
+
+This project serves as the core backend for the future **KANIX AI Ecosystem**, supporting desktop, web, and mobile applications.
 
 ---
 
-## 🆕 What's New in XXXIX-OR
+# ✨ Features
 
-- 📂 **Advanced File Handling** — New support for direct file uploads. Drop PDFs, source code, or images into the assistant to have them analyzed, summarized, or edited instantly.
-- 🎨 **Adaptive & Flexible UI** — A complete overhaul of the interface. The new UI is fully resizable and responsive, featuring transparency controls and customizable layouts to fit your workspace perfectly.
-- 🐧🍎 **Refined Cross-Platform Stability** — Major fixes for macOS and Linux compatibility. Core system actions are now more consistent across all three major operating systems.
-- ⚡ **Optimized Core Engine** — Significant performance boost in tool-calling logic and response generation, resulting in a 40% faster interaction speed.
-- 🔀 **OpenRouter Integration** — Selected action modules (web search, memory, flight finder, desktop control, and more) now route their LLM calls through OpenRouter's free-tier models. This significantly increases the effective request limit without any additional cost, while Gemini Live continues to handle real-time voice and tool-calling.
+| Feature                 | Description                                 |
+| ----------------------- | ------------------------------------------- |
+| 🎙️ Voice Assistant     | Real-time voice interaction with AI         |
+| 🤖 AI Agents            | Autonomous planning and task execution      |
+| 🧠 Long-Term Memory     | Persistent memory management                |
+| 🖥️ Computer Control    | Launch applications and automate tasks      |
+| 📂 File Processing      | Read, analyze, summarize and organize files |
+| 🔍 Intelligent Search   | AI-powered web search integration           |
+| 🌦 Weather Reports      | Live weather information                    |
+| 📹 Screen Analysis      | Screen understanding and AI vision          |
+| 💬 Messaging            | Send intelligent messages and notifications |
+| 🧩 Modular Architecture | Easily extend with new AI actions           |
+| 🌍 Cross Platform       | Windows, Linux and macOS support            |
+| ⚡ Fast API Backend      | Optimized API architecture                  |
+| 🔒 Privacy First        | Local-first execution whenever possible     |
 
 ---
 
-## ⚡ Quick Start
+# 🆕 Current Modules
+
+* Browser Automation
+* Computer Control
+* Desktop Management
+* File Controller
+* File Processing
+* Web Search
+* Weather Assistant
+* Reminder System
+* AI Coding Assistant
+* Flight Finder
+* Screen Processing
+* Memory Manager
+* Configuration Manager
+* AI Task Planner
+* Error Handler
+* OpenRouter Integration
+* Gemini AI Integration
+
+---
+
+# 🏗 Project Structure
+
+```
+KANIX-AI-API-BASE
+│
+├── actions/
+├── agent/
+├── config/
+├── core/
+├── memory/
+├── main.py
+├── ui.py
+├── requirements.txt
+├── setup.py
+└── README.md
+```
+
+---
+
+# ⚡ Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/FatihMakes/Mark-XXXIX-OR.git
-cd Mark-XXXIX-OR
+git clone https://github.com/malusarekrishnab-cyber/kanix-ai-api-base.git
+```
+
+Go into the project
+
+```bash
+cd kanix-ai-api-base
+```
+
+Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+Activate
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source .venv/bin/activate
+```
+
+Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+Install Playwright
+
+```bash
 playwright install
+```
+
+Run the Project
+
+```bash
 python main.py
 ```
 
-> ⚠️ **Installation Note:** To keep the repository lightweight, some OS-specific dependencies are not bundled in `requirements.txt`. If you run into a `ModuleNotFoundError`, simply install the missing package via `pip install <module_name>` for your specific system.
+---
+
+# 📋 Requirements
+
+| Requirement        | Details                  |
+| ------------------ | ------------------------ |
+| Python             | 3.11 or 3.12             |
+| Operating System   | Windows / Linux / macOS  |
+| Internet           | Required for AI services |
+| Gemini API Key     | Required                 |
+| OpenRouter API Key | Required                 |
+| Microphone         | Voice Assistant          |
+| Camera             | Optional                 |
 
 ---
 
-## 📋 Requirements
+# 🛠 Technology Stack
 
-| Requirement | Details |
-|---|---|
-| **OS** | Windows 10/11, macOS, or Linux |
-| **Python** | 3.11 or 3.12 |
-| **Microphone** | Required for voice interaction |
-| **API Keys** | Free Gemini API key + Free OpenRouter API key |
+## Backend
+
+* Python
+* FastAPI
+* Playwright
+* OpenRouter API
+* Google Gemini API
+
+## AI
+
+* Multi-Agent Architecture
+* LLM Tool Calling
+* Prompt Engineering
+* Memory System
+* AI Planning
+
+## Automation
+
+* Browser Automation
+* Desktop Automation
+* File Management
+* System Control
 
 ---
 
-## ⚠️ License
+# 🎯 Future Roadmap
 
-Personal and non-commercial use only.
-Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**.
+* Offline AI Support
+* Face Recognition
+* Voice Authentication
+* Android Companion App
+* Windows Native Client
+* Linux Client
+* macOS Client
+* AI Vision Improvements
+* Smart Home Integration
+* IoT Support
+* Docker Deployment
+* Kubernetes Support
+* Plugin Marketplace
 
 ---
 
-## 👤 Connect with the Creator
+# 👨‍💻 Developer
 
-Engineered by a developer building a real-world JARVIS-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
+## krushna bhagwat malusare
 
-| Platform | Link |
-|---|---|
-| YouTube | [@FatihMakes](https://www.youtube.com/@FatihMakes) |
-| Instagram | [@fatihmakes](https://www.instagram.com/fatihmakes) |
+Computer Engineering Student
+
+Gurukul Institute of Technology, Bhokardan
+
+---
+
+## GitHub
+
+https://github.com/malusarekrishnab-cyber
+
+---
+
+## Project Repository
+
+https://github.com/malusarekrishnab-cyber/kanix-ai-api-base
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, feature requests, and pull requests are welcome.
+
+If you have suggestions or improvements, feel free to open an Issue or submit a Pull Request.
+
+---
+
+# ⭐ Support
+
+If you find this project useful,
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+💡 Share your ideas
+
+---
+
+# 📄 License
+
+Copyright © 2026 krushna bhagwat malusare
+
+This project is intended for educational, research, and personal development purposes.
+
+Unauthorized commercial redistribution without permission is prohibited.
+
+---
+
+# 🚀 Vision
+
+**"KANIX is not just another AI assistant. It is the foundation of a fully autonomous personal AI ecosystem capable of thinking, planning, remembering, and assisting users across every digital platform."**
+
+**Built with ❤️ by krushna bhagwat malusare.
